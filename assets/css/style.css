@@ -1,0 +1,73 @@
+.main {
+  background: 
+    linear-gradient(rgba(0, 1, 2, 3), rgba(1, 0, 0, 0.5)),
+    url('/assets/img/2022-06-27.jpg') center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.nav_padding{
+    padding-right: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-link{
+    color: white;
+    transition: color 0.25s ;
+}
+
+.nav-link:hover{
+    color: yellow;
+}
+
+.font-primary{
+    color: rgb(237, 240, 243);
+}
+
+.font-secondary{
+    color: rgb(145, 149, 151);
+}
+
+.hero_padding{
+    margin-top: 5%;
+}
+
+.btn_main{
+    display: flex;
+
+    justify-content: flex-start;
+
+}
+
+.btn_main:hover{
+    color:black;
+    background-color: rgb(253, 253, 57);
+    border-color: transparent;
+
+}
+
+.nav-bg{
+    background-color: transparent;
+    
+
+}
+.album-bg{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+     url(/assets/img/images__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: darken;
+    
+}
+
+.album-nav{
+       color: rgb(0, 0, 0);
+    transition: color 0.25s ;
+}
+
+.album-nav .nav-link:hover{
+    color: blue;
+}
